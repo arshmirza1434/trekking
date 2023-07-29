@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+        .modal-body p {
+            color: #000;
+            text-align: left;
+        }
+
+
+
+        label {
+            display: inline-block;
+            max-width: 100%;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        .form-control {
+            display: block;
+            width: 100%;
+            height: 34px;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #555;
+            background-color: #fff;
+            background-image: none;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+            -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+            -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        }
+
+        .modal-content {
+            position: relative;
+            background-color: #fff;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+            border: 1px solid #999;
+            border: 1px solid rgba(0, 0, 0, .2);
+            border-radius: 6px;
+            outline: 0;
+            -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+            box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+        }
+
+        .modal-body {
+            position: relative;
+            /* -webkit-box-flex: 0; */
+            /* -ms-flex: 1 1 auto; */
+            /* flex: 1 1 auto; */
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+    </button>
+    <div class="im">
+
+        <img src="img/kasol.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/manali.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/Rishikesh.jpg" alt="" width="500px" height="400px" data-toggle="modal"
+            data-target="#exampleModal">
+        <img src="img/kasol.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/manali.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/Rishikesh.jpg" alt="" width="500px" height="400px" data-toggle="modal"
+            data-target="#exampleModal">
+        <img src="img/kasol.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/manali.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/Rishikesh.jpg" alt="" width="500px" height="400px" data-toggle="modal"
+            data-target="#exampleModal">
+        <img src="img/kasol.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/manali.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/Rishikesh.jpg" alt="" width="500px" height="400px" data-toggle="modal"
+            data-target="#exampleModal">
+        <img src="img/kasol.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/manali.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/Rishikesh.jpg" alt="" width="500px" height="400px" data-toggle="modal"
+            data-target="#exampleModal">
+        <img src="img/kasol.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/manali.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/Rishikesh.jpg" alt="" width="500px" height="400px" data-toggle="modal"
+            data-target="#exampleModal">
+        <img src="img/kasol.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/manali.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/Rishikesh.jpg" alt="" width="500px" height="400px" data-toggle="modal"
+            data-target="#exampleModal">
+        <img src="img/kasol.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/manali.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/Rishikesh.jpg" alt="" width="500px" height="400px" data-toggle="modal"
+            data-target="#exampleModal">
+        <img src="img/kasol.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/manali.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/Rishikesh.jpg" alt="" width="500px" height="400px" data-toggle="modal"
+            data-target="#exampleModal">
+        <img src="img/kasol.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/manali.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/Rishikesh.jpg" alt="" width="500px" height="400px" data-toggle="modal"
+            data-target="#exampleModal">
+        <img src="img/kasol.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/manali.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/Rishikesh.jpg" alt="" width="500px" height="400px" data-toggle="modal"
+            data-target="#exampleModal">
+        <img src="img/kasol.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/manali.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/Rishikesh.jpg" alt="" width="500px" height="400px" data-toggle="modal"
+            data-target="#exampleModal">
+        <img src="img/kasol.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/manali.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/Rishikesh.jpg" alt="" width="500px" height="400px" data-toggle="modal"
+            data-target="#exampleModal">
+        <img src="img/kasol.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/manali.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/Rishikesh.jpg" alt="" width="500px" height="400px" data-toggle="modal"
+            data-target="#exampleModal">
+        <img src="img/kasol.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/manali.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/Rishikesh.jpg" alt="" width="500px" height="400px" data-toggle="modal"
+            data-target="#exampleModal">
+        <img src="img/kasol.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/manali.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/Rishikesh.jpg" alt="" width="500px" height="400px" data-toggle="modal"
+            data-target="#exampleModal">
+        <img src="img/kasol.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/manali.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/Rishikesh.jpg" alt="" width="500px" height="400px" data-toggle="modal"
+            data-target="#exampleModal">
+        <img src="img/kasol.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/manali.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/Rishikesh.jpg" alt="" width="500px" height="400px" data-toggle="modal"
+            data-target="#exampleModal">
+        <img src="img/kasol.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/manali.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/Rishikesh.jpg" alt="" width="500px" height="400px" data-toggle="modal"
+            data-target="#exampleModal">
+        <img src="img/kasol.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/manali.jpg" alt="" width="500px" height="400px" data-toggle="modal" data-target="#exampleModal">
+        <img src="img/Rishikesh.jpg" alt="" width="500px" height="400px" data-toggle="modal"
+            data-target="#exampleModal">
+    </div>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="enquiry_form" method="POST" onsubmit="return enquiry();">
+                        <div class="col-sm-12 form-group">
+                            <p style="margin-bottom:0px; color:#000;"><strong id="idtype">Destination</strong>: <text
+                                    id="idval">Himachal</text></p>
+                            <input type="hidden" name="txtidtype" id="txtidtype" value="Destination">
+                            <input type="hidden" name="txtidval" id="txtidval" value="Himachal">
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="First name"
+                                    aria-label="First name">
+                            </div>
+                            <div class="col">
+                                <label>E-mail</label>
+                                <input type="email" class="form-control" name="txtemail" id="txtemail" required=""
+                                    placeholder="Email ID">
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col form-group">
+                                <label>Phone Number</label>
+                                <input type="text" class="form-control" name="txtphone" id="txtphone" required=""
+                                    placeholder="Phone Number">
+                            </div>
+                            <div class="col">
+                                <label class="travel-clndr">Travel Date</label>
+                                <span class="clndr"><i class="bi bi-calendar"></i></span>
+                                <div class="dt-control">
+                                    <input type="text" class="form-control datepicker" name="date" id="date" required=""
+                                        placeholder="Start Date" onchange="invokeToDate(this,'txtiqdateto')">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label>Adults</label>
+                                <input type="text" class="form-control" name="txtadults" id="txtadults" required=""
+                                    placeholder="Number of Adults">
+                            </div>
+                            <div class="col">
+                                <label>Kids</label>
+                                <input type="text" class="form-control" name="txtkids" id="txtkids" required=""
+                                    placeholder="Number of kids">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label>City</label>
+                                <input type="text" class="form-control" name="txtcity" id="txtcity" required=""
+                                    placeholder="City">
+                            </div>
+                            <div class="col">
+                                <label>Kids</label>
+                                <input type="text" class="form-control" name="txtkids" id="txtkids" required=""
+                                    placeholder="Number of kids">
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-12 form-group">
+                            <label>Brief Description</label>
+                            <textarea class="form-control" name="txtcontent" id="txtcontent" rows="4" cols=""
+                                required="" placeholder="Write brief description of your travel"></textarea>
+                        </div>
+                        <!-- <div class="clearfix"></div>
+                        <div class="form-group text-center">
+                            <button type="submit" id="submit-contact" class="btn btn-primary btn-lg">Submit</button>
+                            <button type="button" class="btn btn-primary btn-lg" data-dismiss="modal">Close</button>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div id="errmsgwrapper" class="text-center" style="padding-top:5px; color:#fff;"></div> -->
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
